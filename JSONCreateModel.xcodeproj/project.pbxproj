@@ -10,8 +10,12 @@
 		3F8083741BB8EB030060873C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8083731BB8EB030060873C /* AppDelegate.m */; };
 		3F8083761BB8EB030060873C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8083751BB8EB030060873C /* main.m */; };
 		3F8083781BB8EB030060873C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8083771BB8EB030060873C /* Images.xcassets */; };
-		3F80837B1BB8EB030060873C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8083791BB8EB030060873C /* MainMenu.xib */; };
 		3F8083871BB8EB030060873C /* JSONCreateModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8083861BB8EB030060873C /* JSONCreateModelTests.m */; };
+		3F8083961BB8EC630060873C /* json.zx2 in Resources */ = {isa = PBXBuildFile; fileRef = 3F8083901BB8EC630060873C /* json.zx2 */; };
+		3F8083971BB8EC630060873C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8083911BB8EC630060873C /* ViewController.m */; };
+		3F8083981BB8EC630060873C /* json.zx1 in Resources */ = {isa = PBXBuildFile; fileRef = 3F8083921BB8EC630060873C /* json.zx1 */; };
+		3F8083991BB8EC630060873C /* NSObject+JSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8083951BB8EC630060873C /* NSObject+JSONSerialization.m */; };
+		3F80839C1BB8EC850060873C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F80839A1BB8EC850060873C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +35,16 @@
 		3F8083731BB8EB030060873C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F8083751BB8EB030060873C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F8083771BB8EB030060873C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3F80837A1BB8EB030060873C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3F8083801BB8EB030060873C /* JSONCreateModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONCreateModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8083851BB8EB030060873C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8083861BB8EB030060873C /* JSONCreateModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONCreateModelTests.m; sourceTree = "<group>"; };
+		3F8083901BB8EC630060873C /* json.zx2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.zx2; sourceTree = "<group>"; };
+		3F8083911BB8EC630060873C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F8083921BB8EC630060873C /* json.zx1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.zx1; sourceTree = "<group>"; };
+		3F8083931BB8EC630060873C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8083941BB8EC630060873C /* NSObject+JSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONSerialization.h"; sourceTree = "<group>"; };
+		3F8083951BB8EC630060873C /* NSObject+JSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONSerialization.m"; sourceTree = "<group>"; };
+		3F80839B1BB8EC850060873C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,14 @@
 			children = (
 				3F8083721BB8EB030060873C /* AppDelegate.h */,
 				3F8083731BB8EB030060873C /* AppDelegate.m */,
+				3F8083901BB8EC630060873C /* json.zx2 */,
+				3F8083911BB8EC630060873C /* ViewController.m */,
+				3F8083921BB8EC630060873C /* json.zx1 */,
+				3F8083931BB8EC630060873C /* ViewController.h */,
+				3F8083941BB8EC630060873C /* NSObject+JSONSerialization.h */,
+				3F8083951BB8EC630060873C /* NSObject+JSONSerialization.m */,
+				3F80839A1BB8EC850060873C /* Main.storyboard */,
 				3F8083771BB8EB030060873C /* Images.xcassets */,
-				3F8083791BB8EB030060873C /* MainMenu.xib */,
 				3F8083701BB8EB030060873C /* Supporting Files */,
 			);
 			path = JSONCreateModel;
@@ -191,8 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8083961BB8EC630060873C /* json.zx2 in Resources */,
 				3F8083781BB8EB030060873C /* Images.xcassets in Resources */,
-				3F80837B1BB8EB030060873C /* MainMenu.xib in Resources */,
+				3F8083981BB8EC630060873C /* json.zx1 in Resources */,
+				3F80839C1BB8EC850060873C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8083971BB8EC630060873C /* ViewController.m in Sources */,
 				3F8083761BB8EB030060873C /* main.m in Sources */,
+				3F8083991BB8EC630060873C /* NSObject+JSONSerialization.m in Sources */,
 				3F8083741BB8EB030060873C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,12 +254,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F8083791BB8EB030060873C /* MainMenu.xib */ = {
+		3F80839A1BB8EC850060873C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F80837A1BB8EB030060873C /* Base */,
+				3F80839B1BB8EC850060873C /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +421,7 @@
 				3F80838C1BB8EB030060873C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F80838D1BB8EB030060873C /* Build configuration list for PBXNativeTarget "JSONCreateModelTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +430,7 @@
 				3F80838F1BB8EB030060873C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

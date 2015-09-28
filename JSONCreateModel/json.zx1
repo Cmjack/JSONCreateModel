@@ -1,0 +1,21 @@
+//
+//  
+//  AutomaticCoder
+//
+//  Created by caiming
+//  Copyright (c) 2015年 cm. All rights reserved.
+//
+
+
+#import <Foundation/Foundation.h>
+#import#
+
+@interface #name# : NSObject
+
+#property# 
+
++ (NSArray*)modelObjectListWithArray:(NSArray *)array;
++ (instancetype)modelObjectWithDictionary:(NSDictionary *)dict;
+- (NSDictionary *)dictionaryRepresentation;
+
+@end
